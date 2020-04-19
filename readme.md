@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="React GitHub Repo List" src="https://res.cloudinary.com/marcelojrfarias/image/upload/v1587323057/gostack_gy3h7u.png" />
+    <img alt="GoStack Bootcamp" src="https://res.cloudinary.com/marcelojrfarias/image/upload/v1587323057/gostack_gy3h7u.png" />
     <br>
     Challenge #1
     <br>
