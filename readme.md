@@ -60,7 +60,7 @@ $ cd gostack-nodejs_concepts
 $ yarn add
 
 # Run the app
-$ yarn start
+$ yarn dev
 ```
 
 ## 🔗 Routes
