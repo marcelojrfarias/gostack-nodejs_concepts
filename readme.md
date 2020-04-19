@@ -63,18 +63,275 @@ $ yarn add
 $ yarn start
 ```
 
-## 🔨 Backend
+## 🔗 Routes
 
 <h1 align="center">
 <a href="https://insomnia.rest/run/?label=NodejsConcepts&uri=https://raw.githubusercontent.com/marcelojrfarias/gostack-nodejs_concepts/master/insomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </h1>
 
-## :memo: License
+### List the repositories
+#### Request
+- **Method:**
+  ```
+  GET
+  ```
+- **Endpoint:**
+  ```
+  /repositories
+  ```
+- **Route Parameters:**
+  ```
+  None.
+  ```
+- **Query Parameter:**
+  ```
+  None.
+  ```
+- **Headers:**
+  ```
+  None.
+  ```
+- **Body:**
+  ```
+  None.
+  ```
+#### Response
+##### Success
+- **Code:**
+  ```
+  200
+  ```
+- **Content:**
+  ```json
+  [{
+    "id": uuid,
+    "title": string,
+    "url": string,
+    "techs": string[],
+    "likes": number
+  },
+  ...]
+  ```
+
+### Create a repository
+#### Request
+- **Method:**
+  ```
+  GET
+  ```
+- **Endpoint:**
+  ```
+  /repositories
+  ```
+- **Route Parameters:**
+  ```
+  None.
+  ```
+- **Query Parameter:**
+  ```
+  None.
+  ```
+- **Headers:**
+  ```
+  None.
+  ```
+- **Body:**
+  ```json
+  {
+    "title": "Backend with Node.js",
+    "url": "https://github.com/marcelojrfarias/gostack-nodejs_concepts",
+    "techs": ["JavaScript", "Node.js"]
+  }
+  ```
+#### Response
+##### Success
+- **Code:**
+  ```
+  200
+  ```
+- **Content:**
+  ```json
+  {
+    "id": "87380836-6540-422e-9679-3d67115049d0",
+    "title": "Backend with Node.js",
+    "url": "https://github.com/marcelojrfarias/gostack-nodejs_concepts",
+    "techs": ["JavaScript", "Node.js"],
+    "likes": 0
+  }
+  ```
+
+### Update a repository
+#### Request
+- **Method:** 
+  ```
+  PUT
+  ```
+- **Endpoint:** 
+  ```
+  /repositories/:id
+  ```
+- **Route Parameters:**
+  ```
+  id: [string] (required)
+  ```
+- **Query Parameter:**
+  ```
+  None.
+  ```
+- **Headers:**
+  ```
+  None.
+  ```
+- **Body:**
+  ```json
+  {
+    "title": "Backend with Node.js and Express",
+    "url": "https://github.com/marcelojrfarias/gostack-nodejs_concepts",
+    "techs": ["JavaScript", "Node.js", "Express"]
+  }
+  ```
+#### Response
+##### Success
+- **Code:** `200`
+- **Content:**
+  ```json
+  {
+    "id": "87380836-6540-422e-9679-3d67115049d0",
+    "title": "Backend with Node.js and Express",
+    "url": "https://github.com/marcelojrfarias/gostack-nodejs_concepts",
+    "techs": ["JavaScript", "Node.js", "Express"],
+    "likes": 0
+  }
+  ```
+##### Error
+- **Code:** `400`
+- **Content:**
+  ```json
+  {
+    "error": "Invalid project ID."
+  }
+  ```
+OR
+- **Code:** `400`
+- **Content:**
+  ```json
+  {
+    "error": "Repository not found!"
+  }
+  ```
+  
+### Delete a repository
+#### Request
+- **Method:** 
+  ```
+  DELETE
+  ```
+- **Endpoint:** 
+  ```
+  /repositories/:id
+  ```
+- **Route Parameters:**
+  ```
+  id: [string] (required)
+  ```
+- **Query Parameter:**
+  ```
+  None.
+  ```
+- **Headers:**
+  ```
+  None.
+  ```
+- **Body:**
+  ```
+  None.
+  ```
+#### Response
+##### Success
+- **Code:** `204`
+- **Content:**
+  ```
+  Empty.
+  ```
+##### Error
+- **Code:** `400`
+- **Content:**
+  ```json
+  {
+    "error": "Invalid project ID."
+  }
+  ```
+OR
+- **Code:** `400`
+- **Content:**
+  ```json
+  {
+    "error": "Repository not found!"
+  }
+  ```
+  
+### Like a repository
+#### Request
+- **Method:** 
+  ```
+  POST
+  ```
+- **Endpoint:** 
+  ```
+  /repositories/:id/like
+  ```
+- **Route Parameters:**
+  ```
+  id: [string] (required)
+  ```
+- **Query Parameter:**
+  ```
+  None.
+  ```
+- **Headers:**
+  ```
+  None.
+  ```
+- **Body:**
+  ```
+  None.
+  ```
+#### Response
+##### Success
+- **Code:** `200`
+- **Content:**
+  ```json
+  {
+    "id": "87380836-6540-422e-9679-3d67115049d0",
+    "title": "Backend with Node.js and Express",
+    "url": "https://github.com/marcelojrfarias/gostack-nodejs_concepts",
+    "techs": ["JavaScript", "Node.js", "Express"],
+    "likes": 0
+  }
+  ```
+##### Error
+- **Code:** `400`
+- **Content:**
+  ```json
+  {
+    "error": "Invalid project ID."
+  }
+  ```
+OR
+- **Code:** `400`
+- **Content:**
+  ```json
+  {
+    "error": "Repository not found!"
+  }
+  ```
+
+## 🧾 License
 This project is under the MIT license. See the [LICENSE](https://github.com/marcelojrfarias/gostack-nodejs_concepts/blob/master/LICENSE) for more information.
 
 ---
 
-Made with ♥ by Marcelo Farias :wave: [Get in touch!](https://www.linkedin.com/in/marcelojrfarias/)
+Made with 💗 by Marcelo Farias 👋 [Get in touch!](https://www.linkedin.com/in/marcelojrfarias/)
 
 [nodejs]: https://nodejs.org/
 [gostack]: https://rocketseat.com.br/bootcamp
