@@ -65,6 +65,12 @@ $ yarn start
 
 ## 🔗 Routes
 
+- [List](#list-the-repositories)
+- [Create](#create-a-repository)
+- [Update](#update-a-repository)
+- [Delete](#delete-a-repository)
+- [Like](#like-a-repository)
+
 <h1 align="center">
 <a href="https://insomnia.rest/run/?label=NodejsConcepts&uri=https://raw.githubusercontent.com/marcelojrfarias/gostack-nodejs_concepts/master/insomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </h1>
@@ -104,13 +110,13 @@ $ yarn start
 - **Content:**
   ```json
   [{
-    "id": uuid,
-    "title": string,
-    "url": string,
-    "techs": string[],
-    "likes": number
+    "id": "87380836-6540-422e-9679-3d67115049d0",
+    "title": "Backend with Node.js",
+    "url": "https://github.com/marcelojrfarias/gostack-nodejs_concepts",
+    "techs": ["JavaScript", "Node.js"],
+    "likes": 0
   },
-  ...]
+  ]
   ```
 
 ### Create a repository
