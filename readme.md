@@ -58,7 +58,7 @@ $ git clone https://github.com/marcelojrfarias/gostack-nodejs_concepts
 $ cd gostack-nodejs_concepts
 
 # Install dependencies
-$ yarn add
+$ yarn install
 
 # Run the app
 $ yarn start
