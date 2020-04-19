@@ -65,11 +65,13 @@ $ yarn start
 
 ## 🔗 Routes
 
-- [List](#list-the-repositories)
-- [Create](#create-a-repository)
-- [Update](#update-a-repository)
-- [Delete](#delete-a-repository)
-- [Like](#like-a-repository)
+<p align="center">
+  <a href="#list-the-repositories">List</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#create-a-repository">Create</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#update-a-repository">Update</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#delete-a-repository">Delete</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#like-a-repository">Like</a>
+</p>
 
 <h1 align="center">
 <a href="https://insomnia.rest/run/?label=NodejsConcepts&uri=https://raw.githubusercontent.com/marcelojrfarias/gostack-nodejs_concepts/master/insomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
