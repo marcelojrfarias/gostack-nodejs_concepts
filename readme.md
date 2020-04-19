@@ -32,11 +32,12 @@
 
 <p align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#gear-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#link-routes">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
-## 🚀 Technologies
+## :rocket: Technologies
 
 This project was developed at the [RocketSeat GoStack Bootcamp][gostack] with the following technologies:
 
@@ -45,7 +46,7 @@ This project was developed at the [RocketSeat GoStack Bootcamp][gostack] with th
 - [Visual Studio Code][vscode]
 - And some other packages...
   
-## ⚙️ How To Use
+## :gear: How To Use
 
 To clone and run this application, you'll need [Git][git], [Node.js v10.16][nodejs] or higher + [Yarn v1.13][yarn] or higher installed on your computer. From your command line:
 
@@ -63,7 +64,7 @@ $ yarn add
 $ yarn start
 ```
 
-## 🔗 Routes
+## :link: Routes
 
 <p align="center">
   <a href="#list-the-repositories">List</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -334,7 +335,7 @@ OR
   }
   ```
 
-## 🧾 License
+## :memo: License
 This project is under the MIT license. See the [LICENSE](https://github.com/marcelojrfarias/gostack-nodejs_concepts/blob/master/LICENSE) for more information.
 
 ---
