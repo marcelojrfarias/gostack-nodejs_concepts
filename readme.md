@@ -14,8 +14,8 @@
   
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/marcelojrfarias/gostack-nodejs_concepts.svg">
   
-  <a href="https://www.codacy.com/app/marcelojrfarias/gostack-nodejs_concepts?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=marcelojrfarias/gostack-nodejs_concepts&amp;utm_campaign=Badge_Grade">
-    <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/eac67ca345934f4c8e4435a8606e7baa.svg">
+  <a href="https://www.codacy.com/manual/marcelojrfarias/gostack-nodejs_concepts?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=marcelojrfarias/gostack-nodejs_concepts&amp;utm_campaign=Badge_Grade">
+    <img src="https://api.codacy.com/project/badge/Grade/2b9bd635f1644a4b8cb9ece8c8d2ac17"/>
   </a>
   
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/marcelojrfarias/gostack-nodejs_concepts.svg">
