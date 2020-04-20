@@ -201,7 +201,10 @@ $ yarn start
   ```
 #### Response
 ##### Success
-- **Code:** `200`
+- **Code:** 
+  ```
+  200
+  ```
 - **Content:**
   ```json
   {
@@ -213,7 +216,10 @@ $ yarn start
   }
   ```
 ##### Error
-- **Code:** `400`
+- **Code:**
+  ```
+  400
+  ```
 - **Content:**
   ```json
   {
@@ -221,7 +227,10 @@ $ yarn start
   }
   ```
 OR
-- **Code:** `400`
+- **Code:**
+  ```
+  400
+  ```
 - **Content:**
   ```json
   {
@@ -257,13 +266,19 @@ OR
   ```
 #### Response
 ##### Success
-- **Code:** `204`
+- **Code:**
+  ```
+  204
+  ```
 - **Content:**
   ```
   Empty.
   ```
 ##### Error
-- **Code:** `400`
+- **Code:**
+  ```
+  400
+  ```
 - **Content:**
   ```json
   {
@@ -271,7 +286,10 @@ OR
   }
   ```
 OR
-- **Code:** `400`
+- **Code:**
+  ```
+  400
+  ```
 - **Content:**
   ```json
   {
@@ -307,7 +325,10 @@ OR
   ```
 #### Response
 ##### Success
-- **Code:** `200`
+- **Code:**
+  ```
+  200
+  ```
 - **Content:**
   ```json
   {
@@ -319,7 +340,10 @@ OR
   }
   ```
 ##### Error
-- **Code:** `400`
+- **Code:**
+  ```
+  400
+  ```
 - **Content:**
   ```json
   {
@@ -327,7 +351,10 @@ OR
   }
   ```
 OR
-- **Code:** `400`
+- **Code:** 
+  ```
+  400
+  ```
 - **Content:**
   ```json
   {
